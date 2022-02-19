@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EulerProblems;
+using System;
 
 namespace ProblemId1
 {
@@ -12,17 +13,7 @@ namespace ProblemId1
 
         private static void Main(string[] args)
         {
-            int numberToSolve = 1_000;
-            long solution = 0;
-
-            for (int i = 0; i < numberToSolve; i++)
-            {
-                if (i % 3 == 0 || i % 5 == 0)
-                    solution += i;
-            }
-
-            Console.WriteLine($"Sum of all multiples below {numberToSolve} = {solution}");
-            Console.ReadKey();
+            Problem2.solve();
         }
     }
 }
