@@ -4,7 +4,7 @@
     {
         private static void Main(string[] args)
         {
-            Problem4.Solve();
+            Problem5.Solve();
         }
     }
 }
